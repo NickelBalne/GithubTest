@@ -22,8 +22,10 @@
     UIImageView *imageView = [[UIImageView alloc]initWithFrame:CGRectMake(0, 0, screenSize.width, screenSize.height)];
     [imageView setImage:[UIImage imageNamed:@"BackGround"]];
     [self.view addSubview:imageView];
-    
-    
+ 
+    UIImageView *doctorImage = [[UIImageView alloc]initWithFrame:CGRectMake(200, 200, 100,100)];
+    [doctorImage setImage:[UIImage imageNamed:@"doctorImage"]];
+    [imageView addSubview:doctorImage];
 }
 
 
