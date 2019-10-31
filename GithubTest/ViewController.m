@@ -34,6 +34,11 @@
     UIImageView *doctorImageThree = [[UIImageView alloc]initWithFrame:CGRectMake(150, 350, 100,100)];
     [doctorImageThree setImage:[UIImage imageNamed:@"doctorImage"]];
     [imageView addSubview:doctorImageThree];
+    
+    UIImageView *doctorImageFour = [[UIImageView alloc]initWithFrame:CGRectMake(150, 450, 100,100)];
+    [doctorImageFour setImage:[UIImage imageNamed:@"doctorImage"]];
+    [imageView addSubview:doctorImageFour];
+
 }
 
 
